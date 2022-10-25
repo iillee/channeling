@@ -1,0 +1,37 @@
+{
+  "display": {
+    "title": "Landworks - Grant 2022",
+    "description": "Channels allow for infinite reuse of DCL Land!",
+    "navmapThumbnail": "images/landworks.jpg",
+    "favicon": "favicon_asset"
+  },
+  "owner": "open source",
+  "contact": {
+    "name": "ile",
+    "email": ""
+  },
+  "main": "bin/game.js",
+  "tags": [],
+  "scene": {
+    "parcels": ["17,91"],
+    "base": "17,91"
+  },
+  "spawnPoints": [
+    {
+      "name": "spawn1",
+      "default": true,
+      "position": {
+        "x": 8,
+        "y": 0,
+        "z": 1
+      },
+      "cameraTarget": {
+        "x": 8,
+        "y": 1,
+        "z": 8
+      }
+    }
+  ],
+  "requiredPermissions": [],
+  "featureToggles": {}
+}
